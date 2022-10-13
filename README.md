@@ -47,7 +47,7 @@ lead_email
 produto_codigo
 ```
 
-Se algum dado do corretor for informado, todos os dados dele serão:
+SE algum dado do corretor for informado, todos os demais serão obrigatórios:
 
 ``` 
 corretor_nome
@@ -55,9 +55,7 @@ corretor_email
 corretor_telefone
 ```
 
-Os demais podem ser omitidos. 
-
-Se os demais campos forem obrigatórios para sua empresa, a validação deverá ser feita do seu lado.
+Estes são os dados obrigatórios da Blisk, se os demais campos forem obrigatórios para sua empresa, a validação deverá ser feita do seu lado.
 
 
 ## Retorno
@@ -128,6 +126,3 @@ Todos os erros retornados possuem __código__ e __mensagem__ e estão aqui somen
 
 
 Fim.
-
-
-
