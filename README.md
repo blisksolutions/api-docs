@@ -57,6 +57,8 @@ corretor_telefone
 
 Estes são os dados obrigatórios da Blisk, se os demais campos forem obrigatórios para sua empresa, a validação deverá ser feita do seu lado.
 
+__NOPRODUCT__ Quando um código inválido de produto for enviado, o contato será atribuído ao código "NOPRODUCT".
+
 
 ## Retorno
 
